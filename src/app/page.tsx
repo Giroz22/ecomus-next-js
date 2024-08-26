@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import Marquee from "@/components/Marquee";
+import Marquee from "@/components/marquee/Marquee";
 import Banner from "./components/Banner";
 import Categories from "./components/Categories";
 import Products from "./components/Products";
