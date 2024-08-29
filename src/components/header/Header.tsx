@@ -11,6 +11,9 @@ import MySelect from "./MySelect";
 import Link from "next/link";
 import BasicMenu from "./BasicMenu";
 
+import logo from "@/assets/Logo.svg";
+import Image from "next/image";
+
 interface eventTypes {
   event:
     | React.MouseEvent<Element, MouseEvent>
@@ -40,7 +43,9 @@ function Header() {
           />
         </div>
         <div className="text-center text-4xl">
-          <Link href="/asdsa">ecomus</Link>
+          <Link href="/">
+            <Image src={logo} alt="Logo ecomus" height={80} width={150} />
+          </Link>
         </div>
         <div className="">
           <IconButton
