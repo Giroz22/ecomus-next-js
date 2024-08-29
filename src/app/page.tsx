@@ -1,6 +1,6 @@
 import Header from "@/components/header/Header";
 import Marquee from "@/components/marquee/Marquee";
-import Banner from "./components/Banner";
+import Banner from "./components/banner/Banner";
 import Categories from "./components/Categories";
 import Products from "./components/Products";
 import Featured from "./components/Featured";

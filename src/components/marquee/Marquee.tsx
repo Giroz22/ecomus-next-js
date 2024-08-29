@@ -20,7 +20,7 @@ function Marquee() {
   return (
     <>
       {showComponent && (
-        <div className="w-screen bg-primary text-primaryWhite text-sm flex items-center">
+        <div className="w-full bg-primary text-primaryWhite text-sm flex items-center">
           <div className="text-slider flex-1 flex">
             {Array.from({ length: 3 }).map((_, i) => {
               return (

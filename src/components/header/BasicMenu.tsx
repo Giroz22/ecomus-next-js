@@ -23,7 +23,7 @@ export default function BasicMenu({ content, items }: IBasicMenu) {
         {items.map((item, index) => {
           return (
             <Link href={item.url} key={item.content + index}>
-              <MenuItem className="w-full hover:bg-slate-200 p-2">
+              <MenuItem className="w-full hover:bg-primary hover:text-white p-2">
                 {item.content}
               </MenuItem>
             </Link>
